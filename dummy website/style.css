@@ -1,0 +1,29 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+    background-color: #fff;
+    border: solid 1px rgb(90, 90, 90);
+    padding: 20px;
+}
+
+nav span
+{
+    font-size: 1.8em;
+    margin-right: 100px;
+    color: maroon;
+    cursor: pointer;
+}
+nav span:hover
+{   
+    opacity: 0.7;
+}
+
+a
+{
+    text-decoration: none;
+}

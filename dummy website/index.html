@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Index</title>
+</head>
+<body>
+    <nav>
+        <a href='/'><span>Index</span></a>
+        <a href='/home'><span>Home</span></a>
+        <a href='/about'><span>About</span></a>
+        <a href='/contact'><span>Contact</span></a>
+        <a href='/faqs'><span>FAQs</span></a>
+    </nav>
+
+    <div id="control">
+        <h1>Index</h1>
+    </div>
+    <script src='router.js'></script>
+    <script>
+        setControlElement('body');
+        addRoute('/about', 'about.html');
+        addRoute('/contact', 'contact.html');
+        addRoute('/faqs', 'faqs.html');
+        addRoute('/home', 'home.html');
+        addRoute('/', 'index.html');
+    </script>
+</body>
+    
+</html>
